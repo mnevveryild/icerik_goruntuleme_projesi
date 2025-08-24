@@ -1,46 +1,43 @@
-# 📖 İçerik Görüntüleme Projesi
+# 📖 Content Viewing Project
 
-Bu proje, **Nesne Yönelimli Programlama (OOP)** konularını tekrar etmek amacıyla geliştirilmiştir.  
-Projede bir admin ve kullanıcılar bulunmaktadır. Admin yeni içerikler ekleyebilir, kullanıcılar ise bu içerikleri görüntüleyip etkileşimde bulunabilir.
+This project was developed to **review Object-Oriented Programming (OOP)** concepts.  
+The system includes an **admin** and **users**. The admin can add new content, while users can view and interact with the content.
 
 ---
 
-## 🚀 Özellikler
+## 🚀 Features
 
 ### 👨‍💼 Admin
-- Sisteme sabit kullanıcı olarak tanımlanmıştır.
-- Kitap, Dergi, Şiir ekleyebilir.
-- Yeni kullanıcı oluşturabilir.
+- Defined as a fixed user in the system.
+- Can add **Books, Magazines, and Poems**.
+- Can create new users.
 
-### 🙍‍♂️Normal Kullanıcı
-- Sisteme giriş yapabilir.
-- Seçtiği içerikleri görüntüleyebilir.
-- İçeriklere puan verebilir.
-- İçeriklere yorum yapabilir.
-
----
-
-## 🛠️ Kullanılan Teknolojiler
-- **Programlama Dili:** Java  
-- **Yaklaşım:** Nesne Yönelimli Programlama (OOP)
+### 🙍‍♂️ Regular User
+- Can log in to the system.
+- Can view selected content.
+- Can rate content.
+- Can comment on content.
 
 ---
 
-## 📂 Proje Yapısı
-- `Admin` → Admin yetkilerini içerir.  
-- `Kullanıcı` → Kullanıcı bilgilerini ve işlemlerini içerir.  
-- `Kitap / Dergi / Şiir` → İçerik türleri.  
-- `Main` → Uygulamanın başlangıç noktası.  
+## 🛠️ Technologies Used
+- **Programming Language:** Java  
+- **Approach:** Object-Oriented Programming (OOP)
 
 ---
 
-## ▶️ Çalıştırma
-1. Projeyi bilgisayarınıza indirin:
+## 📂 Project Structure
+- `Admin` → Contains admin privileges.  
+- `User` → Contains user information and operations.  
+- `Book / Magazine / Poem` → Content types.  
+- `Main` → Entry point of the application.  
+
+---
+
+## ▶️ How to Run
+1. Clone the project to your computer:
    ```bash
-   git clone https://github.com/kullaniciadi/icerik_goruntuleme_projesi.git
-2. Projeyi IDE’nize (IntelliJ IDEA / Eclipse / VS Code) aktarın.
+   git clone https://github.com/username/content-viewing-project.git
+2.Import the project into your IDE (IntelliJ IDEA / Eclipse / VS Code).
 
-3. Main dosyasını çalıştırarak programı başlatın.
-
-Münevver Yıldırım
-
+3.Run the Main class to start the application.
